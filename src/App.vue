@@ -2,7 +2,7 @@
   <!-- <h1>add methos -{{ add(5,3,20) }}</h1>
 <h1>muilply methos -{{ muitply(45) }}</h1> -->
   <h1>{{ name }}</h1>
-  <button @click="changeName">change name</button>
+  <button @click="changeName, increment(2, $event)">change name</button>
   <h1>{{ counter }}</h1>
   <button @click="increment(5, $event)">increase</button>
   <button @click="decrement(5)">decrease</button>
